@@ -1,0 +1,18 @@
+{
+    "manifest_version": "1.0.1",
+    "name": "SupWSD",
+    "keyname": "supwsd",
+    "description": "The SupWSD toolkit is a supervised word sense disambiguation system. The flexible framework of SupWSD allows users to combine different preprocessing modules, to select features extractors and choose which classifier to use. SupWSD is very light and has very small memory requirements; it provides a simple xml file to configure the disambiguation process.",
+    "site": "https://supwsd.net/supwsd/",
+    "version": "3.9.2",
+    "author": "RodriguesFAS",
+    "category": "nlp",
+    "license": "GNU",
+    "analysis": [{
+        "semantic": [{
+            "name": "WSD",
+            "keyname": "wsd",
+            "description": "The SupWSD Pocket is a light version of SupWSD which allows you to perform the disambiguation process in offline mode, without the need to configure the toolkit pipeline. The pocket edition uses the best-known configuration and displays the results in JSON format."
+        }]
+    }]
+}
